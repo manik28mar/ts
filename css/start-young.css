@@ -1,0 +1,871 @@
+#sitemap{
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .section-content{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+    }
+
+    html {
+        scroll-behavior: smooth;
+      }
+
+   
+
+
+
+
+
+
+    /*  Styling the navigation bar*/
+
+    #desktop-nav-bar{
+        display: none;
+    }
+
+    .overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        background: #000000;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 50px;
+    }
+    
+    .overlay-content {
+        width: 100%;
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    .overlay-content a {
+        margin-top: 15px;
+        padding: 8px;
+        text-decoration: none;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF;
+        display: block;
+        transition: 0.3s;
+    }
+    
+    .overlay a:hover, .overlay a:focus {
+        color: #f1f1f1;
+    }
+    
+    .overlay .closebtn {
+        width: 100%;
+        text-align: center;
+        font-size: 60px;
+        text-decoration: none;
+        color: #f1f1f1;
+    }
+
+    #nav-bar-icon{
+        height: 50px;
+        width: 50px;
+        cursor: pointer;
+        position: fixed;
+        right: 10px;
+        top: 10px;
+        z-index: 0;
+        transition: top 0.3s;
+        border: 2px solid #FFFFFF;
+        border-radius: 3px;
+    }
+    
+    
+
+    #mobile-nav-logo{
+        position: fixed;
+        top: 0;
+        left: 5vw;
+        border-radius: 0 0 8px 8px;
+        box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.2);
+        background-color: #ffffff;
+        border-top: none;
+        width: 170px;
+        height: 106px;
+        z-index: 1;
+        padding-left: 10px;
+        padding-top: 10px;
+        transition: top 0.3s;
+    }
+
+    #mobile-nav-logo img{
+        width: 160px;
+        height: 86px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Styling the video section */
+
+.video-container{
+    max-height: fit-content;
+    height: 700px;
+    width: 100vw;
+    background: #ffffff;
+    padding-top: 100px;
+}
+
+.video-wrapper{
+    width: 90vw;
+    margin: 0 auto;
+}
+
+
+#start-young-video{
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 330px;
+    height: 185px; 
+    margin: auto;
+    display: block;
+    margin-top: 8vh;
+}
+
+.video-heading-sy{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 140.62%;
+    color: #000000;
+    mix-blend-mode: normal;
+    text-align: center;
+    margin: 30px auto;
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Styling the program overview section */
+
+.desktop-program-content{
+    display: none;
+}
+
+.program-container{
+    height: fit-content;
+    width: 100vw;
+    background: #ffffff;
+    margin-bottom: 10vh;
+}
+
+.program-wrapper{
+    width: 90vw;
+    margin: 0 auto;
+}
+
+
+#start-young-brochure{
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 330px;
+    height: 240px; 
+    margin: auto;
+    display: block;
+    margin-top: 10vh;
+}
+
+.program-heading{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 140.62%;
+    color: #000000;
+    mix-blend-mode: normal;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#program-overview-line{
+    margin-top: 7vh;
+    border: 2px solid black;
+}
+
+.start-young-btn{
+    border-radius: 5px;
+    height: 48px;
+    width: 200px;
+    text-align: center;
+    background-color: #000000;
+    margin: 7vh auto;
+  }
+  
+  .start-young-btn a{
+      display: block;
+      padding-top: 12px;
+        height: 100%;
+        width: 100%;
+        text-decoration: none;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        color: #FFFFFF;
+  }
+  
+  .start-young-btn a:hover{
+      color: #000000;
+      transition: ease-in-out 0.3s;
+  }
+    
+  .start-young-btn:hover{
+      background-color: #FFFFFF;
+      transition: ease-in-out 0.3s;
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* styling the contact us section */
+
+.contact-us-container{
+    height: fit-content;
+    width: 100vw;
+    background: #FFFFFF;
+}
+
+.contact-us-wrapper{
+    height: 100%;
+    max-width: 100%;
+    padding-top: 20px;
+}
+
+.contact-us-navigation{
+    width: 100%;
+    height: 300px;
+}
+
+.contact-us-logo{
+    height: 104px;
+    width: 104px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.contact-us-logo img{
+    height: 100%;
+    width: 100%;
+}
+
+.nav-link-container{
+    width: 150px;
+    margin: 10px auto;
+}
+
+.nav-link-container ul a{
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+#contact-us-line{
+    display: none;
+}
+
+
+.contact-us-social-pane{
+    height: 35px;
+    width: 100%;
+    text-align: center;
+    margin: 30px auto;
+    padding-bottom: 20px;
+}
+
+.contact-us-social-pane a img{
+    height: 33px;
+    width: 33px;
+}
+
+.social-icons{
+    margin-bottom: 10px;
+}
+
+.mail-id{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8E8E8E;
+}
+
+
+.contact-us-terms{
+    height: 65px;
+    width: 100vw;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-us-terms-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#copyright-text{
+    width: 46px;
+    height: 20px;
+}
+
+#privacy-terms{
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 769px){
+
+
+    /* General Styling */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-heading{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 48px;
+    line-height: 75px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.section-content{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  #mobile-nav-bar{
+    display: none;
+}
+
+
+
+
+
+
+
+
+/* Styling the nav bar */
+
+
+#desktop-nav-bar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 64px;
+    background: #F9F9F9;
+    box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    transition: top 0.3s;
+}
+
+.nav-wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-logo-clickable{
+    display: inline-block;
+    margin: 0;
+    background: #ffffff;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.2);
+    width: 220px;
+    height: 120px;
+    border: 2px solid #FFFFFF;
+    border-top-width: 0;
+}
+
+#nav-logo-clickable img{
+    height: 100px;
+    width: 190px;
+    margin: 10px 15px;
+}
+
+.nav-link-container{
+    height: fit-content;
+}
+
+.nav-link-container ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: fit-content;
+    width: fit-content;
+}
+
+.nav-link-container ul li{
+    padding-top: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 134.77%;
+    text-align: center;
+    color: #8E8E8E;
+    transition: transform 0.3s;
+    margin-right: 20px;
+}
+
+.nav-link-container ul li:hover{
+    color: #000000;
+    transform: scale(1.1);
+}
+
+
+.nav-link-container ul a{
+    text-decoration: none;
+}
+
+
+
+#nav-btn-start-young{
+    padding-top: 8px;
+    width: 140px;
+    height: 40px;
+    margin-top: 11px;
+    background: #000000;
+    border-radius: 5px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#nav-btn-start-young a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#nav-btn-start-young:hover{
+    background: #555555;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Styling the video section */
+
+.video-container{
+    height: 100vh;
+    width: 100vw;
+    background: #ffffff;
+    padding-top: 100px;
+}
+
+.video-wrapper{
+  max-width: 1200px;
+  width: 90vw;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+#start-young-video{
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 700px;
+    height: 394px; 
+}
+
+.video-heading{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 45px;
+    color: #000000;  
+    text-align: center;  
+    margin-bottom: 40px;
+}
+
+
+.video-content{
+    height: fit-content;
+    width: 500px;
+    margin-right: 50px;
+}
+
+.video-text p{
+    text-align: center;
+}
+
+
+
+
+
+
+/* Styling the program overview section */
+
+.mobile-program-content{
+    display: none;
+}
+
+.program-container{
+    height: 100vh;
+    width: 100vw;
+    background: #ffffff;
+    padding-top: 100px;
+    margin-bottom: 20vh;
+}
+
+.program-wrapper{
+    max-width: 1200px;
+    width: 90vw;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.desktop-program-content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#start-young-brochure{
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 800px;
+    height: 582px; 
+    margin: auto;
+    display: block;
+    margin-top: 10vh;
+}
+
+.program-content{
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 15vh;
+}
+
+.program-heading{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 45px;
+    color: #000000;  
+    text-align: center;  
+    margin-bottom: 40px;
+}
+
+#program-overview-line{
+    margin-top: 7vh;
+    border: 2px solid black;
+}
+
+
+.start-young-btn{
+    margin: 30px auto;
+    border: 2px solid #000000;
+    background-color: #000000;
+    border-radius: 5px;
+    height: 60px;
+    width: 220px;
+    text-align: center;
+  }
+  
+  .start-young-btn a{
+      display: block;
+      padding-top: 16px;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  
+  .start-young-btn a:hover{
+      color: #000000;
+      transition: ease-in-out 0.3s;
+  }
+    
+  .start-young-btn:hover{
+      background-color: #FFFFFF;
+      transition: ease-in-out 0.3s;
+  }
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* styling the contact us section */
+
+.contact-us-container{
+    height: 330px;
+    width: 100vw;
+    background: #FFFFFF;
+}
+
+.contact-us-wrapper{
+    height: 100%;
+    max-width: 1200px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.contact-us-navigation{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-us-logo{
+    height: 146px;
+    width: 146px;
+    padding: 0;
+    margin-right: 12vw;
+}
+
+.contact-us-logo img{
+    height: 100%;
+    width: 100%;
+}
+
+#contact-us-line{
+    margin-top: 20px;
+    margin-bottom: 55px;
+    width: 100%;
+    height: 0px;
+    border: 1px solid #000000;
+}
+
+.contact-us-bottom-pane{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.social-icons{    
+    margin-bottom: 15px;
+}
+
+.social-icons a{
+    margin-left: 6px;
+}
+
+.mail-id{
+    padding-bottom: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #8E8E8E;
+}
+
+
+.contact-us-terms-text{
+    display: inline-block;
+    padding-top: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+#copyright-text{
+    width: 46px;
+    height: 20px;
+}
+
+#privacy-terms{
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+
+
+}
