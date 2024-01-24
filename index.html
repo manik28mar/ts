@@ -24,34 +24,9 @@
 	console.log("\n\nExecuted\n");
 	</script>
 <script src="https://my.hellobar.com/6afe860b402228f155d8f08793f41707d4ca2f17.js" type="text/javascript" charset="utf-8" async="async"> </script>
-<!-- Start VWO Async SmartCode -->
-<script type='text/javascript' id='vwoCode' nonce="281b857c00a2ebdaec3d86964b9acb533e1f022878afb8c2041d3f2223351a28">
-	function getQueryStringValue (key) {  
-return decodeURIComponent(window.location.search.replace(new RegExp("^(?:.*[&\\?]" + encodeURIComponent(key).replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));  
-} 
-window._vwo_code=window._vwo_code || (function() {
-var account_id=getQueryStringValue('id')?getQueryStringValue('id'):'586615',
-version=1.3,
-settings_tolerance=2000,
-library_tolerance=2500,
-use_existing_jquery=false,
-is_spa=1,
-hide_element='body',
-/* DO NOT EDIT BELOW THIS LINE */
-f=false,d=document,code={use_existing_jquery:function(){return use_existing_jquery},library_tolerance:function(){return library_tolerance},finish:function(){if(!f){f=true;var e=d.getElementById('_vis_opt_path_hides');if(e)e.parentNode.removeChild(e)}},finished:function(){return f},load:function(e){var t=d.createElement('script');t.fetchPriority='high';t.src=e;t.type='text/javascript';t.innerText;t.onerror=function(){_vwo_code.finish()};d.getElementsByTagName('head')[0].appendChild(t)},init:function(){window.settings_timer=setTimeout(function(){_vwo_code.finish()},settings_tolerance);var e=d.createElement('style'),t=hide_element?hide_element+'{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}':'',i=d.getElementsByTagName('head')[0];e.setAttribute('id','_vis_opt_path_hides');e.setAttribute('nonce',document.querySelector('#vwoCode').nonce);e.setAttribute('type','text/css');if(e.styleSheet)e.styleSheet.cssText=t;else e.appendChild(d.createTextNode(t));i.appendChild(e);this.load('https://dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&f='+ +is_spa+'&vn='+version);return settings_timer}};window._vwo_settings_timer = code.init();return code;}());
-
-	
-	window._vwo_pc_custom = {
-    't': 100, //track
-    'a': 100 //analyze
-};
-
-	</script>
-<!-- End VWO Async SmartCode -->
-	<script>
-		window.VWO = window.VWO || [];
-window.VWO.TRACK_SESSION_COOKIE_EXPIRY_CUSTOM = 0.000540722222222222224; // 30s;
-</script>
+<!-- Start VWO SmartCode -->
+<script src="https://dev.visualwebsiteoptimizer.com/lib/586615.js" id='vwoCode'></script>
+<!-- End VWO SmartCode -->
 <script>
 	window.name = "yeah, its overriden";
 	window.myuuid = getQueryStringValue('id')?getQueryStringValue('id'):'404';
